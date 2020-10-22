@@ -8,7 +8,7 @@ public class Validation {
  * (3)first character must be alphabetic character(a-z,A-Z)
  */
 		Scanner sc =new Scanner(System.in);
-                                         System.out.pritln("enter a username");
+                System.out.println("enter a username");
 		String username=sc.next();
 		String regex="\\w+";
 		if(username.length()>=6 && username.length()<=30) {
